@@ -1,0 +1,39 @@
+body {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.section-solution {
+    background-color: #2e2f42;
+    color: #FFFFFF;
+}
+
+.page-nav {
+    color:blue;
+}
+
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.section-our-team {
+    background-color: #E7E9FC;
+    color: #FFFFFF;
+}
+h3 {
+    color:#2E2F42;
+}
+p {
+    color:#434455;
+}
+.page-footer {
+    background-color: #2e2f42;
+    color: #FFFFFF;
+}
