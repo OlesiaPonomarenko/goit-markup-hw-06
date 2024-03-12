@@ -57,6 +57,12 @@ button {
     color: #fff;
 }
 
+button:hover,
+button:focus {
+  color: #4D5AE5;
+} 
+
+
 .section-our-team {
     
     color: #FFFFFF;
