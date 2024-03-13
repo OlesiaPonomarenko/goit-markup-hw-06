@@ -10,7 +10,7 @@ body {
 
 }
 
-nav .logo {
+.logo {
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
@@ -20,7 +20,7 @@ color: #2e2f42;
 font-family: "Raleway", sans-serif;
 }
 
-nav .web {
+.web {
     font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
