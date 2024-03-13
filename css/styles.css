@@ -101,7 +101,22 @@ button:focus {
     cursor: pointer;
 } 
 
-
+.advantages {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.goal {
+    color:#434455;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+ }
 .section-our-team {
     
     color: #FFFFFF;
