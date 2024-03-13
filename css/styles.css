@@ -11,7 +11,7 @@ body {
 }
 
 .logo {
-    font-weight: 700;
+font-weight: 700;
 font-size: 18px;
 line-height: 1.16667;
 letter-spacing: 0.03em;
@@ -111,12 +111,21 @@ letter-spacing: 0.02em;
 text-align: center;
 
 }
-.page-footer {
-    background-color: #2e2f42;
-    color: #FFFFFF;
-    font-weight: 400;
+footer {
+background: #2e2f42;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+}
+
+ .logo-footer {
+    font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd;
+font-family: "Raleway";
 }
