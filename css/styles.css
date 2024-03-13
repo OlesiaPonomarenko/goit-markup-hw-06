@@ -27,7 +27,15 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+font-family: "Raleway", sans-serif;
 }
+
+nav .web:hover,
+nav .web:focus {
+  color: #4D5AE5;
+}          
+
+
 .page-nav {
     font-weight: 500;
     font-size: 16px;
