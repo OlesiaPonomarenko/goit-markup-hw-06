@@ -129,10 +129,11 @@ text-align: center;
 }
 .page-footer {
 background: #2e2f42;
+color: #f4f4fd
 
 }
 
- .footer .logo {
+ footer .logo {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
