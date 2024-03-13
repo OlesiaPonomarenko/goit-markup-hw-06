@@ -55,10 +55,11 @@ nav .link:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    font-style: normal;
 }
 
-address .link:hover,
-address .link:focus {
+.page-address .link:hover,
+.page-address .link:focus {
   color: #404bb5;
 }
 
