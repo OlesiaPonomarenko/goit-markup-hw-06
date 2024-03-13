@@ -86,18 +86,19 @@ nav .link:focus {
 }
 
 
-button {
+section-button {
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
 }
 
 button:hover,
 button:focus {
-  color: #4D5AE5;
+    background-color: #404BBF;
+    cursor: pointer;
 } 
 
 
