@@ -13,7 +13,7 @@ body {
 .logo {
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
@@ -23,7 +23,7 @@ font-family: "Raleway", sans-serif;
 .web {
     font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
@@ -89,7 +89,7 @@ button:focus {
 h2 {
     font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.1;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
@@ -123,7 +123,7 @@ color: #f4f4fd;
  .logo-footer {
     font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
