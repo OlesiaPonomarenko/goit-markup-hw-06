@@ -142,22 +142,7 @@ text-align: center;
 .images {
     background-color: #ffffff;
 }
-h2 {
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-}
-h3 {
-    color:#2E2F42;
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-}
+
 
 .section-portfolio {
     color:#434455;
@@ -171,19 +156,10 @@ text-align: center;
 .section-portfolio .portfolio {
 
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
 }
 
-p {
-    color:#434455;
-    font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: center;
-
-}
 .page-footer {
 background: #2e2f42;
 color: #f4f4fd
