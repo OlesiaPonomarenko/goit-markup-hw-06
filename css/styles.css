@@ -32,7 +32,7 @@ font-family: "Raleway", sans-serif;
 
 nav .web:hover,
 nav .web:focus {
-  color: #404bbf;
+  color:  #404bbf;
 }          
 
 
@@ -44,6 +44,14 @@ nav .web:focus {
     color: #2e2f42;
 }
 
+.page-nav .link {
+    color:#2e2f42;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #404bbf;
+
+}
 nav .link:hover,
 nav .link:focus {
   color: #4D5AE5;
