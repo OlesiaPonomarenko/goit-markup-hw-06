@@ -138,6 +138,10 @@ text-align: center;
     color:  #2e2f42;
     text-transform: capitalize;
 }
+
+.images {
+    background-color: #ffffff;
+}
 h2 {
     font-weight: 700;
 font-size: 36px;
@@ -162,6 +166,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
+}
+
+.section-portfolio .portfolio {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 p {
