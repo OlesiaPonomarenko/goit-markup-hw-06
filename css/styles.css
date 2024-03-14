@@ -123,6 +123,12 @@ text-align: center;
     background: #f4f4fd;
 }
 
+.section-our-team .portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+
+}
+
 .portfolio {
     font-weight: 500;
     font-size: 20px;
