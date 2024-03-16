@@ -28,6 +28,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 font-family: "Raleway", sans-serif;
+text-decoration:none;
 }
 
 nav .web:hover,
@@ -42,10 +43,12 @@ nav .web:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    list-style-type: none;
 }
 
 .page-nav .link {
     color:#2e2f42;
+    text-decoration:none;
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
@@ -64,11 +67,15 @@ nav .link:focus {
     letter-spacing: 0.02em;
 
     font-style: normal;
+}
 
+.header-page-address { 
+    list-style-type: none;
 }
 
 .page-address .link {
     color:#434455;
+    text-decoration:none;
 
 }
 
@@ -109,6 +116,9 @@ button:focus {
     cursor: pointer;
 } 
 
+.section-advantages {
+    list-style-type: none;
+}
 .advantages {
 font-weight: 500;
 font-size: 20px;
@@ -175,18 +185,26 @@ text-align: center;
 }
 .page-footer {
 background: #2e2f42;
-color: #f4f4fd
-
+color: #f4f4fd;
 }
 
- footer .logo {
+.logo-footer {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 
 }
+
+.footer-logo {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
+
 .logo-footer {
     color: #f4f4fd;
 }
