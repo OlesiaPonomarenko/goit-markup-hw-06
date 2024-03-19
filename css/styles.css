@@ -13,6 +13,11 @@ body {
 *::after {
   box-sizing: border-box;
 }
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -20,6 +25,8 @@ body {
 
 .container-header {
   display: flex;
+  flex-direction: row;
+  width: 1158px;
 }
 .logo {
   font-weight: 700;
@@ -29,6 +36,7 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 
 .web {
@@ -40,6 +48,10 @@ body {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+  padding-top: 24px;
+  padding-left: 156px;
+  padding-bottom: 24px;
+  padding-right: 76px;
 }
 
 nav .web:hover,
@@ -54,10 +66,13 @@ nav .web:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
   gap: 40px;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 332px;
+  display: flex;
+  flex-direction: row;
 }
 
 .page-nav .link {
@@ -78,8 +93,13 @@ nav .link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   font-style: normal;
+  padding-top: 24px;
+  padding-left: 100px;
+  padding-bottom: 24px;
+  padding-right: 156px;
+  display: flex;
+  flex-direction: row;
 }
 
 .header-page-address {
