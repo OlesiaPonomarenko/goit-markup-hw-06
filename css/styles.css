@@ -14,10 +14,13 @@ body {
   box-sizing: border-box;
 }
 
-.contener {
-  width: 1158px;
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
+.container-header {
+  display: flex;
+}
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -54,6 +57,7 @@ nav .web:focus {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  align-items: center;
 }
 
 .page-nav .link {
