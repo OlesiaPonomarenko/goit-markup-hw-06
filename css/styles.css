@@ -26,8 +26,15 @@ body {
 .container-header {
   display: flex;
   flex-direction: row;
-  width: 1158px;
 }
+
+.page-container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -36,7 +43,6 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
-  margin-right: 76px;
 }
 
 .web {
@@ -49,7 +55,6 @@ body {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   padding-top: 24px;
-  padding-left: 156px;
   padding-bottom: 24px;
   padding-right: 76px;
 }
@@ -95,17 +100,13 @@ nav .link:focus {
   letter-spacing: 0.02em;
   font-style: normal;
   padding-top: 24px;
-  padding-left: 100px;
   padding-bottom: 24px;
-  padding-right: 156px;
   display: flex;
   flex-direction: row;
 }
 
 .header-page-address {
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
   gap: 40px;
 }
 
@@ -119,13 +120,17 @@ nav .link:focus {
   color: #404bbf;
 }
 
+.container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .section-solution {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
-  padding-top: 15px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .solution {
@@ -135,6 +140,7 @@ nav .link:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .section-button {
@@ -145,6 +151,10 @@ nav .link:focus {
   letter-spacing: 0.04em;
   text-align: center;
   color: #ffffff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 button:hover,
