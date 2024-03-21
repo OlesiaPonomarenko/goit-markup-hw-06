@@ -197,6 +197,7 @@ button:focus {
   text-align: left;
   color: #2e2f42;
   margin-bottom: 8px;
+  width: calc((100%-72px) / 4);
 }
 .goal {
   color: #434455;
