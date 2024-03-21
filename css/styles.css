@@ -175,6 +175,10 @@ button:focus {
   display: flex;
 }
 
+.advantages-li {
+  width: calc((100% - 72px) / 4);
+}
+
 .advantages {
   font-weight: 500;
   font-size: 20px;
