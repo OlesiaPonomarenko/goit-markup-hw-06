@@ -161,6 +161,10 @@ button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
+
+.visually-hidden {
+}
+
 .section-advantages-one {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -205,6 +209,8 @@ button:focus {
 .section-our-team .portfolio {
   font-size: 36px;
   line-height: 1.11;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio {
@@ -215,6 +221,7 @@ button:focus {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .images {
@@ -232,8 +239,6 @@ button:focus {
   width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-left: 156px;
-  padding-left: 156px;
 }
 
 .section-portfolio .portfolio {
