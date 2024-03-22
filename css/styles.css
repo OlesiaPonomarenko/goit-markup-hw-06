@@ -28,7 +28,7 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -55,6 +55,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   padding-right: 76px;
+  padding-left: 156px;
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -308,4 +309,8 @@ button:focus {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.page-footer .web {
+  display: inline-block;
 }
