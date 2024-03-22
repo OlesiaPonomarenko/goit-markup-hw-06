@@ -55,7 +55,6 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   padding-right: 76px;
-  padding-left: 156px;
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -121,11 +120,6 @@ nav .link:focus {
   color: #404bbf;
 }
 
-.container {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
 .section-solution {
   background-color: #2e2f42;
   width: 1440px;
@@ -182,7 +176,6 @@ button:focus {
 .section-advantages-one {
   background-color: #ffffff;
   width: 1128px;
-  height: 104px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -220,7 +213,7 @@ button:focus {
   color: #ffffff;
   background: #f4f4fd;
   width: 1440px;
-  height: 732px;
+  display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -291,7 +284,6 @@ button:focus {
   color: #f4f4fd;
   width: 1440px;
   padding: 100px 0;
-  flex-direction: column;
 }
 
 .logo-footer {
@@ -309,8 +301,4 @@ button:focus {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-}
-
-.page-footer .web {
-  display: inline-block;
 }
