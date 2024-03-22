@@ -250,6 +250,7 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .section-portfolio {
