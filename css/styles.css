@@ -235,8 +235,7 @@ button:focus {
 
 .images {
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4p;
 }
 
 img {
@@ -247,9 +246,6 @@ img {
   object-fit: cover;
 }
 
-.images-div {
-  width: calc((100% - 72px) / 4);
-}
 .section-portfolio-ul {
   list-style-type: none;
   display: flex;
