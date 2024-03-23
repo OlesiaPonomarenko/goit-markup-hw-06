@@ -245,6 +245,9 @@ img {
   object-fit: cover;
 }
 
+.images-div {
+  width: calc((100% - 72px) / 4);
+}
 .section-portfolio-ul {
   list-style-type: none;
   display: flex;
