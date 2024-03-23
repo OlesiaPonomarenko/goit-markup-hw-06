@@ -254,7 +254,12 @@ img {
   max-width: 100%;
   object-fit: cover;
 }
-
+.container-section-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 .section-portfolio-ul {
   list-style-type: none;
   display: flex;
