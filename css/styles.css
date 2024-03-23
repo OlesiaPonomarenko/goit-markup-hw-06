@@ -140,6 +140,7 @@ nav .link:focus {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
+  margin-bottom: 8px;
 }
 
 .section-button {
@@ -241,9 +242,6 @@ button:focus {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.section-portfolio .portfolio {
-  margin-bottom: 8px;
-}
 
 .images {
   background-color: #ffffff;
@@ -263,6 +261,7 @@ img {
   border-top: none;
   margin-bottom: 8px;
 }
+
 .section-portfolio-ul {
   list-style-type: none;
   display: flex;
