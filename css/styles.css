@@ -199,7 +199,7 @@ button:focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
+  text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
 }
@@ -210,7 +210,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+  text-align: center;
 }
 .section-our-team {
   color: #ffffff;
@@ -232,6 +232,7 @@ button:focus {
 }
 
 .images-div {
+  padding: 32px 0;
 }
 .portfolio {
   font-weight: 500;
@@ -246,7 +247,7 @@ button:focus {
 
 .images {
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4p;
+  border-radius: 0px 0px 4px 4px;
 }
 
 img {
