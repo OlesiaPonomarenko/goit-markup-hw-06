@@ -45,6 +45,7 @@ ul {
   text-transform: uppercase;
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 
 .web {
@@ -90,6 +91,7 @@ nav .web:focus {
 .page-nav .link {
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
