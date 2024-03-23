@@ -28,7 +28,6 @@ ul {
 .header {
   border-bottom: 1px solid #e7e9fc;
   align-content: flex-start;
-  flex-direction: row;
 }
 
 .container {
@@ -49,6 +48,11 @@ ul {
   margin-right: 76px;
 }
 
+.header .logo {
+  padding-top: 26px;
+  padding-bottom: 22px;
+}
+
 .web {
   font-weight: 700;
   font-size: 18px;
@@ -65,6 +69,8 @@ ul {
 }
 .header .web {
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 nav .web:hover,
@@ -120,6 +126,7 @@ nav .link:focus {
   list-style-type: none;
   gap: 40px;
   display: flex;
+  padding-left: 200px;
 }
 
 .page-address .link {
