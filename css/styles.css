@@ -214,6 +214,7 @@ button:focus {
 .section-our-team-ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .section-our-team .portfolio {
@@ -235,6 +236,7 @@ button:focus {
 .images {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 img {
