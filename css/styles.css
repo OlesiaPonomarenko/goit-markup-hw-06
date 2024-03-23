@@ -127,9 +127,9 @@ nav .link:focus {
 
 .section-solution {
   background-color: #2e2f42;
-  width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
+  margin: auto;
 }
 
 .solution {
@@ -151,12 +151,12 @@ nav .link:focus {
   letter-spacing: 0.04em;
   text-align: center;
   color: #ffffff;
-  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 button:hover,
@@ -180,7 +180,6 @@ button:focus {
 
 .section-advantages-one {
   background-color: #ffffff;
-  width: 1128px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -212,10 +211,17 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
+.section-advantages-one .goal {
+  text-align: left;
+}
+
+.section-advantages-one .advantages {
+  text-align: left;
+}
 .section-our-team {
   color: #ffffff;
   background: #f4f4fd;
-  width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -263,6 +269,9 @@ img {
   border-top: none;
   margin-bottom: 8px;
 }
+.section-portfolio .goal {
+  text-align: left;
+}
 
 .section-portfolio-ul {
   list-style-type: none;
@@ -273,7 +282,6 @@ img {
 }
 
 .section-portfolio {
-  width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -298,7 +306,6 @@ img {
 .page-footer {
   background: #2e2f42;
   color: #f4f4fd;
-  width: 1440px;
   padding: 100px 0;
 }
 
