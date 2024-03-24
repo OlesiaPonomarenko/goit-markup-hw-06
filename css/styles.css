@@ -28,6 +28,7 @@ ul {
 .header {
   border-bottom: 1px solid #e7e9fc;
   align-content: flex-start;
+  display: inline;
 }
 
 .container {
