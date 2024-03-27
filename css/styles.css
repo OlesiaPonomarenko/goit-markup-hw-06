@@ -75,6 +75,8 @@ a {
 
 .header .web {
   margin-right: 76px;
+  position: relative;
+  color: #404bbf;
 }
 
 nav .web:hover,
@@ -303,12 +305,11 @@ button:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #404bbf;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   padding-top: 24px;
   padding-bottom: 24px;
   display: inline-block;
-  position: relative;
 }
 
 .page-footer .web {
