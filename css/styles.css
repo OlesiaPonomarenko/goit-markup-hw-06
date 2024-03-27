@@ -75,8 +75,6 @@ a {
 
 .header .web {
   margin-right: 76px;
-  position: relative;
-  color: #404bbf;
 }
 
 nav .web:hover,
@@ -104,6 +102,8 @@ nav .web:focus {
 .page-nav .link {
   color: #2e2f42;
   padding: 24px 0;
+  position: relative;
+  color: #404bbf;
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
