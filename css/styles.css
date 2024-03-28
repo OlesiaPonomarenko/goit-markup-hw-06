@@ -105,6 +105,7 @@ nav .web:focus {
   padding: 24px 0;
   position: relative;
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
@@ -132,6 +133,7 @@ nav .link:focus {
 
 .page-address .link {
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-address .link:hover,
@@ -266,7 +268,6 @@ button:focus {
 .social {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link {
