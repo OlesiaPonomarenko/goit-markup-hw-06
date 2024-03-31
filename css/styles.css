@@ -446,6 +446,7 @@ button:focus {
 .footer-social-p {
   font-weight: 500;
   line-height: 1.5;
+  color: #ffffff;
   letter-spacing: 0.02em;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
@@ -454,4 +455,8 @@ button:focus {
 .page-footer .social :hover,
 .page-footer .social :focus {
   background-color: #31d0aa;
+}
+
+.header .icon-our-team-ul {
+  gap: 16px;
 }
