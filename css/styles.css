@@ -445,4 +445,13 @@ button:focus {
 
 .footer-social-p {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.page-footer .social :hover,
+.page-footer .social :focus {
+  background-color: #31d0aa;
 }
