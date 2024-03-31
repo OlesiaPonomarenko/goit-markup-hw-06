@@ -112,11 +112,13 @@ nav .web:focus {
 }
 
 .page-nav .link {
+  color: #404bbf;
   color: #2e2f42;
   padding: 24px 0;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .page-nav .link:hover,
 .page-nav .link:focus {
   color: #404bbf;
@@ -435,5 +437,12 @@ button:focus {
 .page-footer .container {
   display: flex;
   align-items: baseline;
+}
+
+.footer-social {
   margin-right: 120px;
+}
+
+.footer-social-p {
+  font-weight: 500;
 }
