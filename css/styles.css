@@ -461,13 +461,13 @@ button:focus {
   margin-bottom: 16px;
 }
 
-.page-footer .social-link:hover,
-.page-footer .social-link:focus {
+.page-footer .icon-our-team:hover,
+.page-footer .icon-our-team:focus {
   background-color: #31d0aa;
 }
 
-.page-footer .icon-our-team:hover,
-.page-footer .icon-our-team:focus {
+.page-footer .social-link:hover,
+.page-footer .social-link:focus {
   background-color: #31d0aa;
 }
 
