@@ -594,6 +594,7 @@ button:focus {
 .button-modal:hover,
 .button-modal:focus {
   border: none;
+  fill: #ffffff;
 }
 
 .icon-modal {
