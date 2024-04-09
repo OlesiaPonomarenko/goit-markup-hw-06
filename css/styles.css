@@ -541,6 +541,11 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 1.5;
+}
+
+.form-button .icon-form {
+  margin-left: 16px;
 }
 
 .form-input {
@@ -551,10 +556,10 @@ textarea {
 }
 
 .form-input::placeholder {
-  color: #616161;
+  color: color #ffffff;
 }
 
-.form-label {
+.form-label. {
   display: flex;
   flex-direction: column;
   transition: color 150ms ease-in-out;
@@ -562,8 +567,4 @@ textarea {
 
 .form-label:focus-within {
   color: #009688;
-}
-
-.container-form {
-  text-align: center;
 }
