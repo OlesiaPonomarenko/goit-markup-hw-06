@@ -536,7 +536,11 @@ textarea {
 }
 
 .form-button {
-  align-self: flex-start;
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-input {
