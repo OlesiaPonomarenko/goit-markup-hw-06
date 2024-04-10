@@ -604,6 +604,7 @@ button:focus {
 
 .modal-form {
   margin-bottom: 8px;
+  width: 360px;
 }
 
 .modal-label {
@@ -654,6 +655,7 @@ for {
 
 .modal-form-comment {
   margin-bottom: 16px;
+  width: 360px;
 }
 
 .textarea-modal {
@@ -678,6 +680,7 @@ for {
 
 .checkboks {
   margin-bottom: 24px;
+  width: 360px;
 }
 
 .checkboks-label {
@@ -685,6 +688,7 @@ for {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
 }
 
 .checkboks-span {
