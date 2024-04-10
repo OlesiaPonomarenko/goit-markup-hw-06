@@ -676,6 +676,13 @@ for {
   border-color: #4d5ae5;
 }
 
-.textarea-modal::placeholder {
-  color: color #d11b1b;
+.modal-checkooks {
+  margin-bottom: 24px;
+}
+
+.checkboks-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
