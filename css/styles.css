@@ -702,17 +702,13 @@ for {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  margin-right: 8px;
 }
 
 .checkbox-input:checked + .checkboks-label .checkboks-span {
   background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
 }
 
 .policy-link {
   color: #4d5ae5;
-  margin-right: 8px;
   text-decoration: underline;
 }
