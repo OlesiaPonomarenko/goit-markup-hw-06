@@ -712,6 +712,6 @@ button:focus {
   text-decoration: underline;
 }
 
-.modal-form .section-button {
+.section-button .modal-form {
   min-width: 169px;
 }
