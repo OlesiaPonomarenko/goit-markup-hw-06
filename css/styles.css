@@ -712,6 +712,6 @@ button:focus {
   text-decoration: underline;
 }
 
-.section-send {
+.button-send {
   min-width: 169px;
 }
