@@ -561,7 +561,6 @@ button:focus {
   flex-direction: column;
   gap: 24px;
   padding: 8px;
-  max-width: 300px;
 }
 
 .modal-p {
@@ -604,7 +603,6 @@ button:focus {
 
 .modal-form {
   margin-bottom: 8px;
-  width: 360px;
 }
 
 .modal-label {
@@ -654,7 +652,6 @@ for {
 
 .modal-form-comment {
   margin-bottom: 16px;
-  width: 360px;
 }
 
 .textarea-modal {
@@ -677,19 +674,18 @@ for {
   border-color: #4d5ae5;
 }
 
-.checkboks {
+.checkbox-div {
   margin-bottom: 24px;
-  width: 360px;
 }
 
-.checkboks-label {
+.checkbox-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
-.checkboks-span {
+.checkbox-span {
   width: 16px;
   height: 16px;
   margin-right: 8px;
@@ -704,7 +700,7 @@ for {
   fill: transparent;
 }
 
-.checkbox-input:checked + .checkboks-label .checkboks-span {
+.checkbox-input:checked + .checkbox-label .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -713,4 +709,8 @@ for {
 .policy-link {
   color: #4d5ae5;
   text-decoration: underline;
+}
+
+.modal-form .section-button {
+  min-width: 169px;
 }
