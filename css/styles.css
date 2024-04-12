@@ -706,6 +706,8 @@ for {
 
 .checkbox-input:checked + .checkboks-label .checkboks-span {
   background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .policy-link {
