@@ -268,8 +268,17 @@ button:focus {
   color: #ffffff;
   background: #f4f4fd;
   padding-top: 96px;
-  padding-bottom: 120px;
+  padding-bottom: 96px;
 }
+.section-our-team .advantages {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
 .images {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -278,8 +287,11 @@ button:focus {
 }
 
 .section-our-team-ul {
+  display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
 }
 
 .icon-our-team-ul {
@@ -326,8 +338,9 @@ button:focus {
 }
 .portfolio {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 36px;
   line-height: 1.12;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
@@ -370,6 +383,9 @@ button:focus {
   color: #2e2f42;
   text-align: left;
   margin-bottom: 8px;
+}
+.section-portfolio .goal {
+  font-weight: 400;
 }
 
 .section-portfolio-li {
@@ -450,13 +466,18 @@ button:focus {
   letter-spacing: 0.02em;
 }
 
-.page-footer .container {
+.page-footer {
   display: flex;
-  align-items: baseline;
+  flex-direction: row;
 }
 
 .container-footer {
-  margin-right: 120px;
+  text-align: center;
+}
+
+.footer-social {
+  margin-top: 72px;
+  margin-bottom: 72px;
 }
 
 .footer-social-p {
@@ -465,6 +486,7 @@ button:focus {
   color: #ffffff;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .page-footer .icon-our-team:hover,
@@ -483,20 +505,22 @@ button:focus {
 
 .form {
   display: flex;
-  flex-direction: row;
-  gap: 24px;
+  flex-direction: column;
+  gap: 16px;
   padding: 8px;
-  max-width: 300px;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-p {
-  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-input {
@@ -512,7 +536,6 @@ button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
-  margin-left: 72px;
 }
 
 .form-button {
