@@ -162,7 +162,15 @@
           <h2 class="portfolio">Our Team</h2>
           <ul class="section-our-team-ul">
             <li class="images">
-              <img src="./images/img(2).jpg" alt="Mark Guerrero" width="264" />
+              <img
+                srcset="
+                  ./images/imgMarkGuerrero@1x-min.jpg,
+                  ./images/imgMarkGuerrero@2x-min.jpg
+                "
+                src="./images/img(2).jpg"
+                alt="Mark Guerrero"
+                width="264"
+              />
               <div class="images-div">
                 <h3 class="advantages">Mark Guerrero</h3>
                 <p class="goal">Product Designer</p>
@@ -219,7 +227,15 @@
               </div>
             </li>
             <li class="images">
-              <img src="./images/imgford.jpg" alt="Tom Ford" width="264" />
+              <img
+                srcset="
+                  ./images/imgtomford@2x-min.jpg,
+                  ./images/tomford@1x-min.jpg
+                "
+                src="./images/imgford.jpg"
+                alt="Tom Ford"
+                width="264"
+              />
               <div class="images-div">
                 <h3 class="advantages">Tom Ford</h3>
                 <p class="goal">Frontend Developer</p>
@@ -276,6 +292,10 @@
 
             <li class="images">
               <img
+                srcset="
+                  ./images/imgcamilagarcia@1x-min.jpg,
+                  ./imgcamilagarcia@2x-min.jpg
+                "
                 src="./images/imgcamila.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -338,6 +358,10 @@
 
             <li class="images">
               <img
+                srcset="
+                  ./images/imgdaniel@1x-min.jpg,
+                  ./images/imgdaniel@2x-min.jpg
+                "
                 src="./images/imgdaniel.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -409,6 +433,10 @@
               <div class="container-portfolio-images">
                 <img
                   class="images-portfolio"
+                  srcset="
+                    ./images/imgBankingAp@1x-min.jpg,
+                    ./images/imgBankingAp@2x-min.jpg
+                  "
                   src="./images/projectcard1.jpg"
                   alt="Banking App"
                   width="360"
@@ -427,12 +455,30 @@
 
             <li class="section-portfolio-li">
               <div class="container-portfolio-images">
-                <img
-                  class="images-portfolio"
-                  src="./images/projectcard2.jpg"
-                  alt="Cashless Payment"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/imgCashlessPaymentmob@1x-min.jpg,
+                      ./images/imgCashlessPaymentmob@2x-min.jpg
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/imgCashlessPayment@1x-min.jpg,
+                      ./images/imgCashlessPayment@2x-min.jpg,
+                      ./images/imgCashlessPaymenttab@1x-min.jpg,
+                      ./images/imgCashlessPaymenttab@2x-min.jpg
+                    "
+                  />
+                  <img
+                    class="images-portfolio"
+                    src="./images/projectcard2.jpg"
+                    alt="Cashless Payment"
+                    width="360"
+                  />
+                </picture>
                 <p class="goal-images">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -449,6 +495,10 @@
               <div class="container-portfolio-images">
                 <img
                   class="images-portfolio"
+                  srcset="
+                    ./images/imgMeditaionApp@1x-min.jpg,
+                    ./images/imgMeditaionApp@2x-min.jpg
+                  "
                   src="./images/projectcard3.jpg"
                   alt="Meditaion App"
                   width="360"
@@ -468,6 +518,10 @@
               <div class="container-portfolio-images">
                 <img
                   class="images-portfolio"
+                  srcset="
+                    ./images/imgTaxiService@1x-min.jpg,
+                    ./images/imgTaxiService@2x-min.jpg
+                  "
                   src="./images/projectcard4.jpg"
                   alt="Taxi Service"
                   width="360"
@@ -487,6 +541,10 @@
               <div class="container-portfolio-images">
                 <img
                   class="images-portfolio"
+                  srcset="
+                    ./images/imgScreenIllustrations@1x-min.jpg,
+                    ./images/imgScreenIllustrations@2x-min.jpg
+                  "
                   src="./images/projectcard5.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -506,6 +564,10 @@
               <div class="container-portfolio-images">
                 <img
                   class="images-portfolio"
+                  srcset="
+                    ./images/imgOnlineCourses@1x-min.jpg,
+                    ./images/imgOnlineCourses@2x-min.jpg
+                  "
                   src="./images/projectcard6.jpg"
                   alt="Online Courses"
                   width="360"
