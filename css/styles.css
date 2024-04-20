@@ -222,7 +222,29 @@ nav .link:focus {
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: #2e2f42;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.header-page-address-modal {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.page-address-modal .icon-our-team-ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .section-solution {
@@ -1044,7 +1066,7 @@ button:focus {
     padding-bottom: 188px;
     margin: auto;
   }
-  .solution {
+  .solution-section-one {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
