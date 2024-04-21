@@ -1226,7 +1226,6 @@ button:focus {
   }
   .section-our-team-ul {
     flex-wrap: nowrap;
-    gap: 72px;
   }
   .section-portfolio-ul {
     display: flex;
