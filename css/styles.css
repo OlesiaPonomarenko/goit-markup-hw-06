@@ -153,7 +153,6 @@ nav .link:focus {
 .page-address {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
   margin-left: auto;
@@ -252,6 +251,14 @@ nav .link:focus {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.link-modal-studio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #404bbf;
 }
 
 .link-modal:hover,
@@ -509,7 +516,7 @@ button:focus {
 }
 
 .section-portfolio {
-  padding-top: 120px;
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -583,8 +590,8 @@ button:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
-  padding-top: 22px;
-  padding-bottom: 12px;
+  padding-top: 18px;
+  padding-bottom: 14px;
   display: inline-block;
 }
 
@@ -639,7 +646,7 @@ button:focus {
   line-height: 1.5;
   color: #ffffff;
   letter-spacing: 0.02em;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -955,6 +962,10 @@ button:focus {
   .header .web {
     margin-right: 120px;
   }
+  .nav-header .web {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
   nav .web:hover,
   nav .web:focus {
     color: #404bbf;
@@ -1001,7 +1012,6 @@ button:focus {
   .page-address {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
     margin-left: auto;
@@ -1029,9 +1039,9 @@ button:focus {
       ),
       url(../images/Dark-bg-tab@1x-min.jpg);
     min-width: 768px;
-    padding-top: 72px;
-    padding-bottom: 72px;
-    margin: auto;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    margin: 0 auto;
   }
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -1060,7 +1070,7 @@ button:focus {
     margin-bottom: 36px;
   }
   .section-advantages-one {
-    padding-top: 120px;
+    padding-top: 96px;
   }
   .section-advantages {
     gap: 72px 24px;
@@ -1105,7 +1115,6 @@ button:focus {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    gap: 24px;
     max-width: 530px;
   }
   .form {
@@ -1121,12 +1130,23 @@ button:focus {
   }
   .footer-social {
     margin-top: 0;
+    margin-bottom: 0;
   }
   .footer-social-p {
     text-align: left;
   }
   .section-portfolio-li:not(:last-child) {
     margin-bottom: 0;
+  }
+  @media (min-width: 768px) and (max-width: 1157px) {
+    .header-page-address {
+      display: flex;
+      gap: 12px;
+      flex-direction: column;
+    }
+    .page-footer .container {
+      gap: 72px 24px;
+    }
   }
 }
 
@@ -1144,7 +1164,7 @@ button:focus {
       url(../images/people-office\ 1@1x-min.jpg);
     max-width: 1440px;
     padding-top: 188px;
-    padding-bottom: 188px;
+    padding-bottom: 292px;
     margin: auto;
   }
   @media screen and (min-device-pixel-ratio: 2),
@@ -1203,6 +1223,7 @@ button:focus {
   }
   .section-advantages-one {
     padding-top: 120px;
+    padding-bottom: 120px;
   }
   .section-advantages {
     gap: 24px;
@@ -1227,6 +1248,10 @@ button:focus {
   .section-our-team-ul {
     flex-wrap: nowrap;
   }
+  .section-our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .section-portfolio-ul {
     display: flex;
     gap: 24px;
@@ -1240,6 +1265,9 @@ button:focus {
   .page-footer .container {
     flex-wrap: nowrap;
     min-width: 1158px;
+  }
+  .section-portfolio {
+    padding-top: 120px;
   }
   .container-footer {
     margin-right: 120px;
